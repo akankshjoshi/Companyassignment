@@ -1,0 +1,50 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .kanban-board {
+    display:absolute;
+    justify-content: space-around;
+    padding: 20px;
+    margin:20px;
+    height: 10vh;
+
+ }
+
+.buttons-container {
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+ 
+}
+
+.boxes {
+  display:flex;
+  height: 100px;
+  width: 100%;
+  box-shadow: "0 0 3px 2px #cec7c759";
+  align-items: "center";
+  padding: 20;
+  border-radius: 20;
+  margin: 10px;
+
+}
+
+.buttons-container button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 2px;
+  box-shadow: 5px 5px 15px rgba(3, 31, 132, 0.4);
+}
+
+.buttons-container button:hover {
+  background-color: #07690c;
+}

@@ -1,0 +1,82 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.board {
+  display: flex;
+  overflow-x: auto;
+}
+
+.column {
+  background-color: #fff;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.column-content {
+  min-height: 100px;
+}
+
+.task {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.task h4 {
+  margin: 0;
+  color: #333;
+}
+
+.task p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.task-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.task-icons svg {
+  margin-left: 5px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .board {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

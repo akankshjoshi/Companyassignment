@@ -1,0 +1,17 @@
+.ticket-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f4f5e6; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    height: 23vh;
+    width: 60vh;
+    margin: 5px;
+  }
+  .ticket-card h3 {
+    margin-bottom: 10px;
+  }
+  .ticket-card p {
+    margin-bottom: 5px;
+  }
